@@ -1,0 +1,75 @@
+QUESTION 1
+Version control is a system that records changes to files over time, allowing people to collaborate while preserving historical versions of the projects. This is essential for managing codebases, where tracking edits, testing variations, and reverting to previous versions is critical. GitHub, a platform built around Git, is popular because it offers a centralized place to store, share, and manage code with tools for tracking issues, reviewing code, and automating deployments. By using GitHub, teams ensure that the integrity of a project is maintained, as every change is documented, and conflicts can be identified and resolved. This is essential for managing codebases, where tracking edits, testing variations, and reverting to previous versions is critical. GitHub, a platform built around Git, is popular because it offers a centralized place to store, share, and manage code with tools for tracking issues, reviewing code, and automating deployments. By using GitHub, teams ensure that the integrity of a project is maintained, as every change is documented, and conflicts can be identified and resolved.
+
+QUESTION 2
+To set up a new repository on GitHub:
+Log into GitHub and navigate to "New Repository."
+Enter the Repository Name and optional description.
+Choose Visibility (public or private).
+Select Add-ons like a README file, .gitignore file (to ignore specified files in Git), or license. Key decisions include selecting the repository's visibility (private for restricted access, public for open sharing) and initializing it with a README, which sets up essential project documentation.
+
+QUESTION 3
+A README file is a critical document that provides an overview of a repository. A well-written README should include:
+
+Project Purpose and Description: Outline what the project does and its goals.
+Installation and Usage Instructions: How to set up and use the project.
+Contributing Guidelines: Instructions for contributing, if it’s open to collaboration.
+Contact Information and License Details. The README serves as the first point of reference for new users or contributors, fostering effective collaboration and ensuring project clarity.
+
+QUESTION 4
+
+Public Repositories:
+Advantages: Open to anyone, making it easy to collaborate, contribute, and gain feedback. Ideal for open-source projects.
+Disadvantages: Anyone can see and potentially clone your code, which may not be suitable for sensitive projects.
+Private Repositories:
+Advantages: Access is restricted, ideal for proprietary or sensitive codebases.
+Disadvantages: Limits community feedback and collaboration unless permissions are granted. Choosing between public and private depends on the project’s goals, security needs, and desired level of collaboration.
+
+QUESTION 5
+
+A commit in Git is a snapshot of changes made to the code. To make a commit:
+
+Clone or Create a Local Repository: Use git init (for new repositories) or git clone <URL> (for existing).
+Add Changes to Staging Area: git add <filename> or git add . to stage all changes.
+Commit Changes: git commit -m "Initial commit" to save a snapshot. Commits help track changes over time and allow users to revert to previous versions, making them essential for managing project versions.
+
+QUESTION 6
+
+Branching allows developers to work on new features, bug fixes, or experiments without affecting the main codebase. To create a branch:
+
+Create a Branch: git branch new-feature.
+Switch to the Branch: git checkout new-feature (or git switch new-feature).
+Merge Changes: Once complete, use git merge new-feature in the main branch. Branches are crucial in collaborative development because they allow multiple team members to work in parallel and merge changes systematically.
+
+QUESTION 7
+
+A pull request (PR) is a request to merge changes from one branch into another, typically after code review. PRs facilitate code reviews, allowing team members to examine changes, leave comments, and discuss potential issues before merging. The steps include:
+
+Create a Pull Request on GitHub by selecting the branches to merge.
+Review and Discuss Changes with team members.
+Merge the Pull Request once approved. Pull requests are central to GitHub’s collaborative workflow, ensuring quality and consistency.
+
+QUESTION 8
+
+Forking creates a personal copy of another user's repository on your GitHub account. Unlike cloning (which copies the repository locally without linking it back to the original), forking allows you to submit changes back to the original project via pull requests. Forking is useful when:
+
+Contributing to Open Source: You can work on your version and propose changes to the main project.
+Personalizing a Project: Fork a project to customize it without affecting the original repository.
+
+QUESTION 9
+
+GitHub Issues and Project Boards are tools for tracking tasks, bugs, and feature requests. They enable:
+
+Task Management: Create issues to represent tasks or bugs, assign them to team members, and track progress.
+Organization: Use Project Boards to visualize tasks in columns (e.g., "To Do," "In Progress," "Done"). For example, tracking bugs via Issues and moving tasks on Project Boards helps teams stay organized, improves project visibility, and fosters collaboration.
+
+QUESTION 10
+
+Common challenges with GitHub include handling merge conflicts, organizing branches, and understanding Git commands. Best practices include:
+
+Regular Commits: Make small, frequent commits to ensure consistent progress.
+Clear Commit Messages: Use descriptive messages to clarify what each commit achieves.
+Use Branches Strategically: Keep main branches clean, and use feature branches for new work.
+Frequent Pulls and Pull Requests: Sync changes regularly to avoid conflicts.
+Effective Code Reviews: Establish guidelines for reviewing and approving pull requests.
+
